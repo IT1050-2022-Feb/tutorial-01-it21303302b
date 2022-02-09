@@ -12,8 +12,18 @@ n -> 1-
 sum = 1+2+3+...+10 = 55 */
 
 #include <stdio.h>
-int main() {
-  
+int main() 
+{
+  int i,ad;
+  float tot,n;
+
+  printf("enter last number\t:");
+  scanf("%f",&n);
+
+  tot=(float) (1+n)*(n/2);
+
+  printf("the total is\t:%.2f",tot);
+
   return 0;
 }
 
